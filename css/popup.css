@@ -42,6 +42,8 @@ a {
     display: table;
     margin: auto;
     line-height: 1;
+    border-bottom: 1px dashed #fff;
+    padding: 2px;
 }
 
 /* TOP END */
