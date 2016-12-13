@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/PT-Sans-Narrow.ttf');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/PTSansRegular.woff');
+}
+
+/* SITE VIEW */
+
+header#banner {
+    border-bottom: none;
+    background: none;
+}
+
+#header_page_title {
+    display: none;
+}
+
+ul#navtabs > li > a,
+ul#navtabs > li > a#last {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    padding: 5px 3px;
+    font-size: 15px;
+    border: 1px solid #CCCCCC;
+    margin-left: -1px;
+    height: 19px;
+}
+
+#navtabs > li > #last:hover {
+    text-shadow: none;
+}
+
+ul#navtabs > li > a:hover {
+    text-shadow: none;
+    height: inherit;
+}
+
+div#breadcrumb {
+    border: none;
+}
+
+.specific_movie_data,
+.specific_movie_other_source,
+.specific_movie_watch,
+.album_holder,
+#side_bar > div {
+    box-shadow: none !important;
+    border: 1px solid #d0d0d0 !important;
+}
+
+.movie_links_help {
+    text-align: center;
+    border: none !important;
+}
+
+div.search_div {
+    background-color: #fff;
+    width: 1000px;
+    height: 20px;
+}
+
+div.search_div > input {
+    border: 1px solid #d0d0d0;
+    font-weight: normal;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    margin: 0;
+    float: right;
+    width: 292px;
+}
+
+.search_div > img {
+    display: none;
+}
+
+.box-shadow {
+    box-shadow: none !important;
+}
+
+.specific_movie_data_holder_title > h1 {
+    font-family: 'PT Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif !important;
+}
+
+/* SITE VIEW END */
